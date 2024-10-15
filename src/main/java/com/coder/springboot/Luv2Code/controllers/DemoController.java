@@ -1,5 +1,6 @@
-package com.coder.springboot.Luv2Code;
+package com.coder.springboot.Luv2Code.controllers;
 
+import com.coder.springboot.Luv2Code.Coach;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
@@ -48,6 +49,10 @@ public class DemoController {
         return result;
 
     }
+
+    // create a new controller instance.
+
+
 
 
 }
