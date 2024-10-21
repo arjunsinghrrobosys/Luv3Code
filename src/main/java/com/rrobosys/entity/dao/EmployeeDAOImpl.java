@@ -18,9 +18,15 @@ public class EmployeeDAOImpl implements EmployeeDAO {
     @Autowired
     private Employee employee;
 
+    @Autowired
+    private EmployeeDAO employeeDAO;
+
+
 
     @Override
     public List<Employee> findAll() {
+        return new List<Employee> employeeDAO.findAll();
+
 
 
     }
